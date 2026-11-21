@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#142d38">
+  <title>Palkon Auto · Solmar</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main id="world" aria-label="Solmar coastal city">
+    <canvas id="scene" aria-label="Interactive three-dimensional view of Solmar"></canvas>
+    <div class="topline"><span class="brand">PALKON <b>AUTO</b></span><span class="location">SOLMAR · REPUBLIC COAST</span></div>
+    <nav class="districts" aria-label="Solmar districts">
+      <button type="button" data-x="-1000" data-z="520">Old Solmar</button>
+      <button type="button" data-x="-620" data-z="10">Canal Ward</button>
+      <button type="button" data-x="70" data-z="610">South Market</button>
+      <button type="button" data-x="-980" data-z="-720">Citrus Quarter</button>
+      <button type="button" data-x="1450" data-z="170">Pearl Marina</button>
+      <button type="button" data-x="640" data-z="-300">Glasspoint</button>
+      <button type="button" data-x="-1600" data-z="360">Sunstrand Beach</button>
+    </nav>
+    <section class="place"><p class="eyebrow">SOLMAR / COASTAL CITY</p><h1 id="district">Glasspoint</h1><p id="clock">12:18 PM · SCORCHING CLEAR</p></section>
+    <div class="mode" role="group" aria-label="Lighting">
+      <button id="day" type="button" aria-pressed="true">Day</button><button id="sunset" type="button" aria-pressed="false">Sunset</button><button id="night" type="button" aria-pressed="false">Night</button>
+    </div>
+    <div class="legend"><i></i> Solmar, Republic coast <span>WASD walk · Shift run · Drag orbit · Scroll zoom</span></div>
+    <div id="error" role="alert"></div>
+  </main>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

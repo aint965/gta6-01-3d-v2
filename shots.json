@@ -1,0 +1,6 @@
+[
+  { "name": "1-solmar-day.jpg", "query": "?mode=day&shot=city" },
+  { "name": "2-solmar-night.jpg", "query": "?mode=night&shot=city" },
+  { "name": "3-solmar-sunset.jpg", "query": "?mode=sunset&shot=city" },
+  { "name": "4-solmar-park.jpg", "query": "?mode=day&shot=park" }
+]
